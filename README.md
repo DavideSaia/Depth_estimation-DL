@@ -8,7 +8,7 @@ The scripts insert in the repository are made for "Deep Learning & Robot percept
 The net is based on encoder-decoder architecture, the encoder side is realized with ResNet50 backbone, instead of the decoder side is made with five transposed convolutional layer to give in output the depth map predicted. 
 </p>
 
-[depth](.png/net_depth_estimation.jpg)
+![](.png/net_depth_estimation.jpg)
 
 ## Performance
 The net is evaluated on two metrics:
