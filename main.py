@@ -13,7 +13,7 @@ def main():
     parser.add_argument("--evaluate_every", type=int, default=2)
     parser.add_argument("--visualize_every", type=int, default=100)
     parser.add_argument("--data_dir", type=str,
-                        default=os.path.join("C:\\", "Users","Davide","OneDrive - Università degli Studi di Perugia","DAVIDE - UNIVERSITA'","MAGISTRALE","2°ANNO","Deep_learning_&_Robot_perception","DepthEstimationUnreal"))
+                        default=os.path.join("<your dataset path>"))
 
     parser.add_argument("--is_train", type=bool, default=False)
     parser.add_argument("--ckpt_file", type=str, default="depth_20.pth")
